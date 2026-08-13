@@ -1,0 +1,7 @@
+Java Launcher: /nix/store/mfg02prkjhwv8z6z36b953h8k34dcfwc-openjdk-17.0.18+8/lib/openjdk/bin/java
+Arguments: '--inJar, /home/harbinger/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.0.19/forge-1.20.1-47.0.19-injected.jar, --outJar, /home/harbinger/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.0.19_mapped_parchment_2023.06.26-1.20.1.jar, --logFile, accesstransform.log, --atFile, /run/media/harbinger/nixfiles/projects/ImmersiveHealth/build/_atJar_4/parent_at.cfg'
+Classpath:
+ - /home/harbinger/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.2.14/accesstransformers-8.2.14-fatjar.jar
+Working directory: /run/media/harbinger/nixfiles/projects/ImmersiveHealth/build/_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

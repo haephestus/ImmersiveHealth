@@ -19,10 +19,10 @@
 	sprintDrainPerTick = 0.5
 	#Stamina drained per tick while walking
 	#Range: 0.0 ~ 1000.0
-	walkDrainPerTick = 0.05
+	walkDrainPerTick = 0.02
 	#Stamina spent per jump
 	#Range: 0.0 ~ 1000.0
-	jumpCost = 5.0
+	jumpCost = 2.0
 	#Stamina recovered per tick while not moving
 	#Range: 0.0 ~ 1000.0
 	staminaRegenPerTick = 0.25

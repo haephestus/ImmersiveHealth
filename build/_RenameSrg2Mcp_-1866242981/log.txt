@@ -1,0 +1,15 @@
+Java Launcher: /nix/store/k4wdda32mzy9j8jvvq6ilr090a3qx2pr-openjdk-17.0.14+7/lib/openjdk/bin/java
+Arguments: '--task, SRG_TO_MCP, --input, /home/harbinger/.gradle/caches/modules-2/files-2.1/curse.maven/parcool-482378/6831668/f021f457ec053b6910f78252f25c0e803226539c/parcool-482378-6831668.jar, --output, /home/harbinger/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/parcool-482378/6831668_mapped_parchment_2023.06.26-1.20.1/parcool-482378-6831668_mapped_parchment_2023.06.26-1.20.1.jar, --mcp, /home/harbinger/.gradle/caches/parchmentgradle/org/parchmentmc/data/parchment-1.20.1/2023.06.26/parchment-1.20.1-2023.06.26.zip, --strip-signatures'
+Classpath:
+ - /home/harbinger/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/installertools/1.4.4/installertools-1.4.4-fatjar.jar
+Working directory: /run/media/harbinger/StorageSSD/ImmersiveHealth/build/_RenameSrg2Mcp_-1866242981
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  /home/harbinger/.gradle/caches/modules-2/files-2.1/curse.maven/parcool-482378/6831668/f021f457ec053b6910f78252f25c0e803226539c/parcool-482378-6831668.jar
+Output: /home/harbinger/.gradle/caches/forge_gradle/deobf_dependencies/curse/maven/parcool-482378/6831668_mapped_parchment_2023.06.26-1.20.1/parcool-482378-6831668_mapped_parchment_2023.06.26-1.20.1.jar
+MCP:    /home/harbinger/.gradle/caches/parchmentgradle/org/parchmentmc/data/parchment-1.20.1/2023.06.26/parchment-1.20.1-2023.06.26.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete
