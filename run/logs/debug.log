@@ -1,0 +1,48 @@
+[11Aug2026 19:29:06.567] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, /root/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.0.19, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[11Aug2026 19:29:06.571] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by N/A; OS Linux arch amd64 version 6.18.38
+[11Aug2026 19:29:06.598] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[11Aug2026 19:29:06.609] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[11Aug2026 19:29:06.619] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[11Aug2026 19:29:06.628] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[11Aug2026 19:29:06.632] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /home/harbinger/IdeaProjects/ImmersiveHealth/run
+[11Aug2026 19:29:06.633] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /home/harbinger/IdeaProjects/ImmersiveHealth/run/mods
+[11Aug2026 19:29:06.633] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /home/harbinger/IdeaProjects/ImmersiveHealth/run/config
+[11Aug2026 19:29:06.633] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /home/harbinger/IdeaProjects/ImmersiveHealth/run/config/fml.toml
+[11Aug2026 19:29:06.670] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[11Aug2026 19:29:06.674] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[11Aug2026 19:29:06.760] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[11Aug2026 19:29:06.762] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.5
+[11Aug2026 19:29:06.762] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.4
+[11Aug2026 19:29:06.763] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.3
+[11Aug2026 19:29:06.763] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.2
+[11Aug2026 19:29:06.764] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.1
+[11Aug2026 19:29:06.764] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.0
+[11Aug2026 19:29:06.765] [main/INFO] [EARLYDISPLAY/]: Trying GL version 3.3
+[11Aug2026 19:29:06.765] [main/INFO] [EARLYDISPLAY/]: Trying GL version 3.2
+[11Aug2026 19:29:06.765] [main/ERROR] [EARLYDISPLAY/]: Failed to find any valid GLFW profile. Trying 4.6: GLFW error: [0x10006]GLX: Failed to load GLX
+[11Aug2026 19:29:06.767] [main/ERROR] [EARLYDISPLAY/]: ERROR DISPLAY
+Failed to initialize graphics window with current settings.
+
+
+Failure details:
+Failed to find a valid GLFW profile.
+We tried 4.6, 4.5, 4.4, 4.3, 4.2, 4.1, 4.0, 3.3, 3.2 but none of them worked.
+Trying 4.6: GLFW error: [0x10006]GLX: Failed to load GLX
+Trying 4.5: GLFW error: [0x10006]GLX: Failed to load GLX
+Trying 4.4: GLFW error: [0x10006]GLX: Failed to load GLX
+Trying 4.3: GLFW error: [0x10006]GLX: Failed to load GLX
+Trying 4.2: GLFW error: [0x10006]GLX: Failed to load GLX
+Trying 4.1: GLFW error: [0x10006]GLX: Failed to load GLX
+Trying 4.0: GLFW error: [0x10006]GLX: Failed to load GLX
+Trying 3.3: GLFW error: [0x10006]GLX: Failed to load GLX
+Trying 3.2: GLFW error: [0x10006]GLX: Failed to load GLX
+
+If you click yes, we will try and open https://links.minecraftforge.net/early-display-errors in your default browser
+[11Aug2026 19:29:16.760] [pool-2-thread-1/ERROR] [EARLYDISPLAY/]: ERROR DISPLAY
+Failed to initialize graphics window with current settings.
+
+
+Failure details:
+Timed out trying to setup the Game Window.
+
+If you click yes, we will try and open https://links.minecraftforge.net/early-display-errors in your default browser

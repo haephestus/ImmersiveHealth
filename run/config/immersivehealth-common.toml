@@ -1,0 +1,67 @@
+
+#Turn individual physiology systems on/off. Disabled systems do nothing
+#and stop applying their effects (their bar just sits idle).
+[systems]
+	#Stamina (movement/combat/parkour drain).
+	enableStamina = true
+	#Endurance deep-reserve (drains after stamina, refills via rest).
+	#If false, stamina is used alone with no reserve.
+	enableEndurance = true
+	#Thirst / hydration.
+	enableHydration = true
+	#Body temperature & fever effects.
+	enableBodyTemperature = true
+
+#Kinesis: stamina & endurance
+[kinesis]
+	#Stamina drained per tick while sprinting
+	#Range: 0.0 ~ 1000.0
+	sprintDrainPerTick = 0.5
+	#Stamina drained per tick while walking
+	#Range: 0.0 ~ 1000.0
+	walkDrainPerTick = 0.05
+	#Stamina spent per jump
+	#Range: 0.0 ~ 1000.0
+	jumpCost = 5.0
+	#Stamina recovered per tick while not moving
+	#Range: 0.0 ~ 1000.0
+	staminaRegenPerTick = 0.25
+
+	#Endurance is a DEEP RESERVE. It recovers mainly via sleep, eating and
+	#rest (no strenuous activity for restDelayTicks), plus a slow passive
+	#trickle whenever stamina is full. All of it scales with fitness.
+	[kinesis.endurance]
+		#Ticks of no strenuous activity before rest/sleep/eat recovery kicks in (20 = 1s)
+		#Range: 0 ~ 100000
+		restDelayTicks = 100
+		#Endurance/tick while sleeping (x sleep quality)
+		#Range: 0.0 ~ 1000.0
+		sleepRegenPerTick = 0.5
+		#Endurance/tick while resting (still, awake)
+		#Range: 0.0 ~ 1000.0
+		restRegenPerTick = 0.05
+		#Extra endurance/tick while digesting food (saturation > 0)
+		#Range: 0.0 ~ 1000.0
+		eatRegenBonusPerTick = 0.1
+		#Passive endurance/tick whenever stamina is full (slow trickle)
+		#Range: 0.0 ~ 1000.0
+		fullStaminaTricklePerTick = 0.02
+
+#Thirst / hydration
+[thirst]
+	#Hydration lost per tick just from being alive
+	#Range: 0.0 ~ 1000.0
+	baseDrainPerTick = 0.01
+	#Hydration restored by drinking a water bottle
+	#Range: 0.0 ~ 1000.0
+	waterBottleHydration = 30.0
+	#Hydration per sip from open water (sneak + right-click)
+	#Range: 0.0 ~ 1000.0
+	openWaterHydration = 15.0
+	#Chance a water bottle makes you ill (0..1)
+	#Range: 0.0 ~ 1.0
+	dirtyWaterSicknessChance = 0.3
+	#Chance open water makes you ill (0..1)
+	#Range: 0.0 ~ 1.0
+	openWaterSicknessChance = 0.55
+
